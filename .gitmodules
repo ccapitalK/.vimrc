@@ -1,0 +1,12 @@
+[submodule "bundle/CoVim"]
+	path = bundle/CoVim
+	url = git://github.com/FredKSchott/CoVim.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
+[submodule "bundle/vim-arduino-ino"]
+	path = bundle/vim-arduino-ino
+	url = git://github.com/jplaut/vim-arduino-ino/
+[submodule "bundle/vim-afterimage"]
+	path = bundle/vim-afterimage
+	url = git://github.com/tpope/vim-afterimage.git
