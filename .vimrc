@@ -5,8 +5,6 @@ set autoindent
 set shiftwidth=4
 set softtabstop=4
 set number
-nmap <Enter> o<Esc>
-nmap <S-Enter> O<Esc>
 nmap <F5> :setlocal spell! spelllang=en_us <Enter>
 nmap <F6> :set wrap!<Enter> :set linebreak!<Enter> :set nolist<Enter>
 
@@ -23,8 +21,13 @@ let CoVim_default_port = "1081"
 " leader key and shortcuts
 let mapleader="\<Space>"
 nnoremap <leader>w :w<CR>
+nnoremap <leader>j o<Esc>
+nnoremap <leader>k O<Esc>
 nnoremap <leader>x :x<CR>
 nnoremap <leader>q :q<CR>
+nnoremap <leader>; q:
+nnoremap <leader>1 :!
+nnoremap <leader>d <C-c><CR>
 vmap <Leader>y "+y
 vmap <Leader>d "+d
 nmap <Leader>p "+p
