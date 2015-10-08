@@ -1,3 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/home/sahan/Programs/large-c/large-c/src'
+let g:netrw_dirhist_2='/home/sahan/.vim'
+let g:netrw_dirhist_3='/home/sahan/Programs/Misc Languages/Solid/Solid-git'
+let g:netrw_dirhist_4='/home/sahan/Programs/Misc Languages/Large-C'
+let g:netrw_dirhist_5='/home/sahan/Programs/testing/cmake_lib/src'
+let g:netrw_dirhist_6='/home/sahan/Programs/testing/linear/linear_lib/demo'
+let g:netrw_dirhist_7='/home/sahan/Programs/testing/linear/linear_lib/include'

@@ -12,8 +12,11 @@ nmap <F6> :set wrap!<Enter> :set linebreak!<Enter> :set nolist<Enter>
 :set nowrap
 :set nolinebreak
 :set nolist  
+:set nocompatible 
+:set relativenumber
 let CoVim_default_name = "HYENA"
 let CoVim_default_port = "1081"  
+let g:syntastic_cpp_compiler_options = ' -std=c++11'
 
 " fix small delay on 'O', in exchange for no arrow keys in insert mode
 :set noesckeys
@@ -24,9 +27,13 @@ nnoremap <leader>w :w<CR>
 nnoremap <leader>j o<Esc>
 nnoremap <leader>k O<Esc>
 nnoremap <leader>x :x<CR>
+nnoremap <leader>( f)a)<Esc>F(i( <Esc>i
 nnoremap <leader>q :q<CR>
 nnoremap <leader>; q:
+nnoremap <leader>i :set paste!<CR>
+nnoremap <leader>/ q/
 nnoremap <leader>1 :!
+nnoremap <leader><leader> <C-w>
 nnoremap <leader>d <C-c><CR>
 vmap <Leader>y "+y
 vmap <Leader>d "+d
