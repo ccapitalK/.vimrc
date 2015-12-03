@@ -10,9 +10,6 @@
 [submodule "bundle/vim-afterimage"]
 	path = bundle/vim-afterimage
 	url = git://github.com/tpope/vim-afterimage.git
-[submodule "slimv"]
-	path = slimv
-	url = https://github.com/kovisoft/slimv
 [submodule "bundle/slimv"]
 	path = bundle/slimv
-	url = /home/sahan/.vim/slimv/
+	url = https://github.com/kovisoft/slimv 
