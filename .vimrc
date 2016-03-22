@@ -16,7 +16,7 @@ nmap <F6> :set wrap!<Enter> :set linebreak!<Enter> :set nolist<Enter>
 :set relativenumber
 let CoVim_default_name = "HYENA"
 let CoVim_default_port = "1081"  
-let g:syntastic_cpp_compiler_options = ' -std=c++11'
+let g:syntastic_cpp_compiler_options = ' --std=c++11'
 
 " fix small delay on 'O', in exchange for no arrow keys in insert mode
 :set noesckeys
