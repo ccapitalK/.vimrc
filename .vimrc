@@ -18,6 +18,9 @@ let CoVim_default_name = "HYENA"
 let CoVim_default_port = "1081"  
 let g:syntastic_cpp_compiler_options = ' --std=c++11'
 
+" Make autocomplete match to common substring
+:set completeopt=longest
+
 " fix small delay on 'O', in exchange for no arrow keys in insert mode
 :set noesckeys
 
